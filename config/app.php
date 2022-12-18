@@ -195,7 +195,7 @@ return [
         // App\Providers\BroadcastServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
-
+        Rorecek\Ulid\UlidServiceProvider::class
     ],
 
     /*
@@ -213,4 +213,5 @@ return [
         // 'ExampleClass' => App\Example\ExampleClass::class,
     ])->toArray(),
 
+    'ipinfo_access_token' => env('IPINFO_ACCESS_TOKEN', null)
 ];
